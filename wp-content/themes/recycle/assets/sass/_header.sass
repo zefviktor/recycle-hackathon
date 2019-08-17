@@ -1,0 +1,45 @@
+.header
+  position: absolute
+  top: 0
+  left: 0
+  right: 0
+  z-index: 5
+  &__background
+    padding-top: 50px
+    padding-bottom: 50px
+    background-color: #000
+  &__content
+    padding-top: 60px
+    width: 100%
+    display: flex
+    align-items: center
+    flex-direction: column
+    justify-content: space-between
+    @media (min-width: 576px)
+      display: flex
+      align-items: center
+      justify-content: space-between
+      flex-direction: column
+    @media (min-width: 768px)
+      display: flex
+      align-items: center
+      justify-content: space-between
+      flex-direction: row
+    @media (min-width: 992px)
+      display: flex
+      align-items: center
+      justify-content: space-between
+      flex-direction: row
+    @media (min-width: 1200px)
+      display: flex
+      align-items: center
+      justify-content: space-between
+      flex-direction: row
+    &-item
+      width: 100%
+
+
+
+
+
+
